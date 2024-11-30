@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-azul: #EAF2FD;
+    --cor-branco: #FFFFFF;
+    --cor-branco-preto: #EDEDED;
+    --cor-preto: #464646;
+    --fonte: "Raleway", sans-serif;
+}
+
+/* Padrao */
+*{
+    background-color: var(--cor-branco-preto);
+    color: var(--cor-preto);
+    font-family: var(--fonte);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header__botao{
+    text-decoration: none;
+}
+.header__opcoes{
+    display: flex;
+    gap: 32px;
+}
+
+
+
+/* Conteudo */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+
+/* Inicio */
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px 0px 250px;
+}
+.inicio__esquerda{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 12px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-right: 50px;
+}
+
+/* texto */
+.inicio__esquerda__titulo{
+    font-size: 52px;
+}
+.inicio__esquerda__subtitulo{
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+/* link */
+.inicio__link{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 32px;
+    padding-right: 50px;
+}
+.inicio__link__texto{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* foto */
+.inicio_foto{
+    border-radius: 100%;
+    height: 1%;
+    width: 20%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+/* sobre Mim */
+.sobreMim{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    padding: 150px 250px 150px 250px;
+}
+.sobreMim__titulo{
+    background-color: var(--cor-branco);
+    font-size: 32px;
+}
+.sobreMim__texto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 500px;
+}
+
+.sobreMim__strong{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+
+
+/* Skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 50px 250px 50px 250px;
+}
+.skills__titulo{
+    font-size: 32px;
+}
+
+/* Logos */
+.skills__logo{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 65px;
+}
+.skills__logo_botao{
+    display: flex;
+    justify-content: center;
+}
+.skills__logo_icon{
+    width: 50px;
+    height: 50px;
+}
+.skills__logo__botao__texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* hobbies */
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 50px 250px 50px 250px;
+}
+.hobbies__titulo{
+    font-size: 32px;
+}
+
+/* logos */
+.hobbies__logo{
+    display: flex;
+    gap: 40px;
+}
+.hobbies__logo_icon{
+    width: 50px;
+    height: 50px;
+    
+}
+.hobbies__logo__botao__texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* formacao */
+
+.formacao{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 150px 250px 150px 250px;
+}
+.formacao__titulo{
+    background-color: var(--cor-branco);
+    font-size: 32px;
+}
+
+/* logos */
+.formacao__logo{
+    background-color: var(--cor-branco);
+    display: flex;
+    text-align: center;
+    gap: 150px;
+}
+.formacao__logo_icon{
+    background-color: var(--cor-branco);
+}
+.formacao__logo__botao{
+    background-color: var(--cor-branco);
+}
+.formacao__logo__botao__texto{
+    background-color: var(--cor-branco);
+    font-size: 22px;
+    font-weight: 500;
+}
+.formacao__logo__botao__subTexto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Projetos */
+
+/* Geral */
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 32px 250px 32px 250px;
+}
+.projetos__titulo{
+    font-size: 32px;
+}
+
+/* Codificador */
+
+.codificador{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+/* Imagem */
+.codificador__imagem{
+    width: 752px;
+    height: 406px;
+    margin-right: 40px;
+}
+
+/* Direita */
+.codificador__direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Texto */
+
+.codificador__texto{
+    display: flex;
+    flex-direction: column;
+}
+.codificador__texto__titulo{
+    font-size: 22px;
+}
+.codificador__texto__subtitulo{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Botao */
+.codificador__botao{
+    gap: 16px;
+}
+.codificador__botao__repositorio{
+    text-decoration: none;
+    border-style: solid;
+    font-size: 16px;
+    border-width: 1px;
+    padding: 10px;
+}
+.codificador__botao__demo{
+    background-color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/* Jogo secreto */
+.secreto{
+    display: flex;
+    text-align: center;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+/* Imagem */
+.secreto__imagem{
+    width: 752px;
+    height: 406px;
+    margin-left: 40px;
+}
+
+/* Direita */
+.secreto__direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Texto */
+.secreto__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.secreto__texto__titulo{
+    font-size: 22px;
+}
+.secreto__texto__subtitulo{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Botao */
+.secreto__botao{
+    font-size: 16px;
+    gap: 50px;
+}
+.secreto__botao__repositorio{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px;
+}
+.secreto__botao__demo{
+    background-color: var(--cor-branco);
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+
+/* Contato */
+
+/* Geral */
+.contato{
+    background-color: var(--cor-branco);
+    display: flex;
+    align-self: center;
+    gap: 64px;
+    padding: 128px 450px 64px 450px;
+}
+
+/* Direita */
+.contato__direita{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/* texto */
+.contato__direita_texto{
+    gap: 16px;
+}
+.contato__titulo{
+    background-color: var(--cor-branco);
+    font-size: 32px;
+    font-weight: 700;
+     padding-bottom: 13px;
+}
+.contato__texto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Geral */
+.contato__textArea{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+    margin-bottom: 20px;
+    gap: 32px;
+}
+
+/* Nome */
+.contato__nome{
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column;
+}
+.contato__nome__label{
+    background-color: var(--cor-branco-preto);
+    font-size: 12px;
+}
+.contato__nome__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
+}
+
+/* Email */
+.contato__email{
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column; 
+}
+.contato__email__label{
+    background-color: var(--cor-branco-preto);
+    font-size: 12px;
+}
+.contato__email__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
+}
+
+/* Assunto */
+.contato__assunto{
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column;
+}
+.contato__assunto__label{
+    background-color: var(--cor-branco-preto);
+    font-size: 12px;
+}
+.contato__assunto__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
+}
+
+/* Mensagem */
+.contato__mensagem{
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column;
+}
+.contato__mensagem__label{
+    background-color: var(--cor-branco-preto);
+    font-size: 12px;
+}
+.contato__mensagem__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 40px 0px;
+}
+
+/* Botao */
+.contato__botao{
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 16px;
+    width:  176px;
+    padding: 16px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: var(--cor-preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 750px 32px 750px;
+}
+.footer__texto{
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-size: 16px;
+}
